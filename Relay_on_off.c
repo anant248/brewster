@@ -97,7 +97,7 @@ void carbonation_hold() {
   delay (10000);
 }
 
-// used to trasnfer the final beer from the carbonation keg to the final output
+// used to transfer the final beer from the carbonation keg to the final output
 void carbonation_to_serve() {
   // close all other valves
   digitalWrite(2, LOW);
